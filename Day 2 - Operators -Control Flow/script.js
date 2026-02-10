@@ -100,7 +100,7 @@ let isLoggedInhome = false;
 
 console.log( !isLoggedInhome);   // true
 
-Truthy & Falsy
+// Truthy & Falsy
 
 // Falsy values (ONLY these 6)
 
@@ -158,8 +158,9 @@ let username = "";
 
 
 // if / else 
+let ageIs = 20;
 
-if ( age >= 18 ){
+if ( ageIs >= 18 ){
     console.log("adult");    // adult
 } else {
     console.log("Minor");
