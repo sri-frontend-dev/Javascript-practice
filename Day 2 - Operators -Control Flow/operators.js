@@ -306,7 +306,7 @@ if (isLoggedIn) {
 // TASK 3
 
 let scroe = 35;
-
+ 
 if(scroe >= 40) {
     console.log("pass");
 } else {
