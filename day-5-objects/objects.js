@@ -15,7 +15,7 @@ console.log(user.age);
 
 // Object with Function
 
-const user = {
+const userp = {
     name :"surya",
     age : 45,
     greet : function(){
@@ -25,11 +25,11 @@ const user = {
     }
 };
 
-user.greet();
+userp.greet();
 
 //  Nested Object
 
- const student = {
+ const studentreg = {
     name : "Kumar",
     marks: {
         tamil: 98,
@@ -38,9 +38,9 @@ user.greet();
     }
  };
 
- console.log(student.marks.maths);
- console.log(student.marks.tamil);
- console.log(student.marks.science);
+ console.log(studentreg.marks.maths);
+ console.log(studentreg.marks.tamil);
+ console.log(studentreg.marks.science);
 
 // task 1
 
@@ -63,15 +63,15 @@ console.log(person.skills);
 
 // Task3
 
-const user = {
+const usery = {
   name: "sridhar",
   age: 35,
   city: "Chennai",
 };
 
-console.log(user.name);
-console.log(user.age);
-console.log(user.city);
+console.log(usery.name);
+console.log(usery.age);
+console.log(usery.city);
 
 const phone = {
   brand : "VIVO",
@@ -83,59 +83,59 @@ console.log(phone.brand, phone.price, phone.color);
 
 console.log(`${phone.brand},${phone.price},${phone.color}`);
 
-const student = {
+const student2 = {
   name: "Vijay",
   age: 40
 };
 
 
-console.log(student["name"]);
-console.log(student["age"]);
+console.log(student2["name"]);
+console.log(student2["age"]);
 
-const person = {
+const person1 = {
   name: "Sri",
   age: 22
 };
 
 const prop = "age";
 
-console.log(person.prop);
-console.log(person[prop]);
+console.log(person1.prop);
+console.log(person1[prop]);
 
 //
 
-const student = {
+const student1 = {
   name: "Ravi",
   age: 34
 };
 
-student.city = "Chennai";
-student.age = 24;
-delete student.city;
+student1.city = "Chennai";
+student1.age = 24;
+delete student1.city;
 
-console.log(student);
+console.log(student1);
 
-console.log(student.age);
-console.log(student);
+console.log(student1.age);
+console.log(student1);
 
-const user = {
+const user2 = {
   name: "Sri"
 };
 
-user.age = 22;
-delete user.name;
+user2.age = 22;
+delete user2.name;
 
-console.log(user.age);
+console.log(user2.age);
 
 
  // 
 
-const user = {
+const userI = {
   name : "Ramesh",
   skills : ["HTML","CSS","JS","REACT"]
 };
 
-console.log(user.skills[3]);
+console.log(userI.skills[3]);
 
 
 const uesr = {
@@ -157,17 +157,17 @@ copy.name = "Ram";
 
 console.log(user1.name);
 
-const user = {
+const users = {
   name: "Sri"
 };
 
-const copy = { ...user };
+const copy = { ...users };
 
 copy.name = "Ram";
 
-console.log(user.name);
+console.log(users.name);
 
- Mini  Exercies
+//  Mini  Exercies
 
 let student = [
   { id: 1, name: "Sri", marks: 85 },
